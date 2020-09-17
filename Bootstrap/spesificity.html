@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Belajar Spesificity</title>
+
+        <style>
+            #idcontohbobot{
+                color: red;
+            }
+
+            .classcontohbobot{
+                color: blue;
+            }
+
+            .classspesificity{
+                color: red;
+            }
+
+            .wrapper .classspesificity{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Spesificity</h1>
+        <p>!Important > Inline Styling > Id   > Class > Tag</p>
+        <p>10000      > 1000           > 100  > 10    > 1</p>
+        <p>!Important -> Tidak Peduli dengan Konsep Spesificity</p>
+
+        <h1>Contoh Bobot</h1>
+        <p style="color: black;" id="idcontohbobot" class="classcontohbobot">Contoh Bobot 1 : Inline Styling Menang (Warna Menjadi Hitam)</p>
+        <p id="idcontohbobot" class="classcontohbobot">Contoh Bobot 2 : Id Menang (Warna Menjadi Merah)</p>
+
+        <div class="wrapper">
+            <div class="classspesificity">
+                Contoh Bobot 3 : Class yang Lebih Spesifik Menang (Warna Menjadi Biru)
+            </div>
+        </div>
+    </body>
+</html>
