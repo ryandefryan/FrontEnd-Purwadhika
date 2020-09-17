@@ -1,0 +1,27 @@
+/* Desktop ( >768 ) */
+/* Tablet ( 600-768 ) */
+/* Phone ( <600 ) */
+
+.responsif{
+    color: black;
+}
+
+@media only screen and (max-width: 768px){
+    .responsif{
+        color: orchid;
+    }
+
+    .desktop-only{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .responsif{
+        color: orchid;
+    }
+
+    .desktop-only{
+        display: none;
+    }
+}

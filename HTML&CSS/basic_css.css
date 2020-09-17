@@ -1,0 +1,55 @@
+:root{
+    --primarycolor : #FFAEBC;
+    --secondarycolor : #A0E7E5;
+}
+
+.color-blue{
+    color:#fff;
+    background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% );
+    height: 200px;
+}
+
+.lorem{
+    font-family: Roboto;
+    font-style: italic;
+    text-shadow: 2px 5px 8px #1C1213;
+    text-decoration: underline;
+}
+
+.satu, .dua, .tiga{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--primarycolor);
+}
+
+div span p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--primarycolor);
+}
+
+main > p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--primarycolor);
+}
+
+.p-with-psudo{
+    color: var(--primarycolor);
+    font-family: sans-serif;
+    transition: 500ms ;
+    display: inline;
+}
+
+.p-with-psudo:hover{
+    color: black;
+}
+
+.link-with-pseudo{
+    color: black;
+}
+
+.link-with-pseudo:visited{
+    color: var(--primarycolor);
+}
+
+.link-with-pseudo:active{
+    color: var(--secondarycolor);
+}

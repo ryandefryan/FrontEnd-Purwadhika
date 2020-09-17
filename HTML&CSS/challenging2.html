@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Layout Challenge 2</title>
+    </head>
+    <style>
+        body{
+            padding: 0;
+            margin:0
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: blanchedalmond;
+        }
+
+        .header{
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0px 20px; 
+            align-items: center;
+        }
+
+        .slogan{
+            flex: 4;
+            display: flex;
+            align-items: center;
+            padding: 0px 40px;
+
+        }
+
+        .title-wrapper{
+            width: 50%;
+        }
+
+        .button-action{
+            flex: 1;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .button{
+            padding: 10px 30px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="header">
+                    <button class="button">
+                        Login
+                    </button>
+            </div>
+            <div class="slogan">
+                <div class="title-wrapper">
+                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aspernatur hic porro laboriosam iste. Ipsa libero odit repudiandae, sint porro impedit illo harum placeat eaque ullam corrupti rem delectus fugit.</h1>
+                </div>
+            </div>
+            <div class="button-action">
+                <button class="button">
+                    Getting Started
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

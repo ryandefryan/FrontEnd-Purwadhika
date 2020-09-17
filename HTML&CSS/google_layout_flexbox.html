@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Google Layout</title>
+    </head>
+    <style>
+        .header{
+            display: flex;
+            background-color: cadetblue;
+            padding: 10px;
+            justify-content: flex-end;
+        }
+
+        .header-item{
+            margin-left: 20px;
+        }
+
+        .content{
+            height: 85vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content .content-searchbox{
+            margin-bottom: 25px;
+        }
+
+        .footer-language{
+            background-color: lightslategrey;
+        }
+
+        .footer-about{
+            background-color: lightsteelblue;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-about-left{
+            display: flex;
+        }
+
+        .footer-about-right{
+            display: flex;
+        }
+
+        .footer-about-left .footer-item{
+            margin-right: 20px;
+        }
+
+        .footer-about-right .footer-item{
+            margin-left: 20px;
+        }
+    </style>
+    <body>
+        <div class="header">
+            <div class="header-item">
+                Gmail
+            </div>
+            <div class="header-item">
+                Gambar
+            </div>
+            <div class="header-item">
+                Avatar
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-logo">
+                <img src="https://cdn.vox-cdn.com/thumbor/E9RM8-qg-iyLEAzP4d7tobqI09o=/0x0:2012x1341/1400x933/filters:focal(0x0:2012x1341):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="Logo" width="250px">
+            </div>
+            <div class="content-searchbox">
+                <input type="text">
+            </div>
+            <div class="content-buttons">
+                <input type="button" value="Pencarian"><input type="button" value="Saya Lagi Beruntung">
+            </div>
+            <div class="content-language">
+                Indonesia
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-language">
+                Indonesia
+            </div>
+            <div class="footer-about">
+                <div class="footer-about-left">
+                    <div class="footer-item">
+                        Periklanan
+                    </div>
+                    <div class="footer-item">
+                        Bisnis
+                    </div>
+                    <div class="footer-item">
+                        Tentang
+                    </div>
+                    <div class="footer-item">
+                        Cara Kerja
+                    </div>
+                </div>
+                <div class="footer-about-right">
+                    <div class="footer-item">
+                        Privasi
+                    </div>
+                    <div class="footer-item">
+                        Persyaratan
+                    </div>
+                    <div class="footer-item">
+                        Setelan
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

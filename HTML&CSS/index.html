@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <!-- Berisi Informasi Tentang Website -->
+        <title>Belajar HTML & CSS</title>
+    </head>
+    <body>
+        <!-- 
+            Isi dari Website Terdiri dari :
+                1. Element
+                2. Tag :
+                        - Open Tag
+                        - Close Tag
+                3. Properties
+                4. Inner HTML
+         -->
+
+        <!-- Isi dari Website -->
+
+        <h1 style="color: blueviolet;">
+           Hello World 
+        </h1>
+        <hr>
+        <h1>Hello <br> World</h1>
+
+        <hr>
+
+        <ul>
+            <li> Beras </li>
+            <li> Minyak goreng </li> 
+            <li> Gula </li>
+            <li> Santan </li>
+            <li> Merica </li>
+            <li> Ikan </li>
+        </ul>
+
+        <hr>
+
+        <ol>
+            <li> Andi </li> 
+            <li> Budi </li> 
+            <li> Caca </li> 
+            <li> Dedi </li> 
+            <li> Euis </li> 
+            <li> Fafa </li>
+        </ol>
+
+        <hr>
+        
+        <h4>HTML Table</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Defryan</td>
+                    <td>Male</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <hr>
+
+        <a href="https://www.google.com" target="_blank"> Coba Klik! </a> <br>
+        <a href="profile.html"> Click Profile -> </a> <br>
+        <a href="#Defryan"> Find Defryan </a>
+
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1 id="Defryan">Hi, I'm Defryan.</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+
+        <hr>
+
+        <img src="https://lelogama.go-jek.com/cache/d0/d3/d0d3c6cb219b4a099cd34ab88bd74b35.webp" alt="Gojek Banner">
+
+        <hr>
+
+        <h4>HTML Inputs</h4>
+
+        <input type="button" value="button">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+
+        <select>
+            <option> Merah </option>
+            <option> Kuning </option>
+            <option> Hijau </option>
+            <option> Biru </option> 
+        </select>
+
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        
+
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="button" id="button" value="Submit">
+
+        <script>
+            var button = document.getElementById('button')
+            function onBtnClick(){
+                var text = document.getElementById('name').value
+                alert(text)
+            }
+            button.addEventListener('click' , onBtnClick)
+        </script>
+    </body>
+</html>

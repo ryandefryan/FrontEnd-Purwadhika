@@ -1,0 +1,36 @@
+.box{
+    width: 200px;
+    height: 100px;
+}
+
+.satu{
+    background-color: salmon;
+}
+
+.dua{
+    background-color: skyblue;
+    position: relative;
+    top: 0px;
+}
+
+.positioning-absolute{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.positioning-fixed{
+    height: 50px;
+    background-color: darkgreen;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.positioning-sticky{
+    background-color: orange;
+    height: 20px;
+    position: sticky;
+    top: 10px;
+}
